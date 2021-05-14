@@ -1,0 +1,24 @@
+main {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 90vw;
+}
+
+.products__heading {
+  padding: 0 2rem;
+}
+
+.products__arrow {
+  width: 20px;
+  height: 20px;
+}
+
+.products__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
