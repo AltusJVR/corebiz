@@ -1,0 +1,72 @@
+
+
+.banner__content {
+  .banner__lead {
+    font-size: 2.8em;
+    font-weight: 900;
+    max-width: 17ch;
+  }
+  p {
+    color: #fff;
+    font-size: 1.9em;
+    font-weight: 700;
+  }
+}
+
+.banner__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 60vh;
+  width: 100vw;
+  background-image: url(./img/Banner.jpg);
+  background-position-x: 180%;
+  background-repeat: no-repeat;
+}
+
+.banner__container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: -18%;
+  height: 100%;
+  width: 90%;
+  background-image: url(img/Banner.svg);
+  background-repeat: no-repeat;
+}
+
+
+.banner__content {
+  position: relative;
+  left: 10%;
+  line-height: 2.5em;
+  width: 100%;
+  z-index: 10;
+}
+
+
+
+.banner__scroll{
+  position: absolute;
+  bottom: 5%;
+  z-index: 5;
+  display: flex;
+  width: 5%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner__scroll_dots {
+  background-color: #fff;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.banner__scroll_dots:nth-of-type(1){
+  background-color: #F8475F;
+  ;
+}
